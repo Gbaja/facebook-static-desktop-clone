@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Lucida Grande', 'Tahoma';
+    background-color: #D3D8E8;
+}
+.content{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+header{
+    background-color: #3b5998;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+}
+header table{
+    float: right;
+    display: inline;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+header a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+header td{
+    padding-left: 10px;
+}
+header td a{
+    color:  #afbdd4;
+    font-size: 12px;
+    text-decoration: none;
+}
+header td a:hover{
+    text-decoration: underline;
+}
+header .login{
+    border: 0.5px solid black;
+    width: 140px;
+    height: 20px;
+}
+header .loginbutton{
+    border-radius: 0px;
+    color: white;
+    background-color: #395DA9;
+    border: 1px solid;
+    text-decoration: none;
+    padding: 3px;
+}
+header .loginbutton:hover{
+    background-color: #3b5998;
+}
+
+.maincontent{
+    overflow: auto;
+}
+.left{
+    width: 48%;
+    padding-top: 50px;
+}
+.left p{
+    font-size: 22px;
+    color: #0e385f;
+    font-weight: bold;
+}
+.right{
+    float: right;
+    width: 40%;
+    padding-top: 30px;
+}
+.right input[type=text]{
+    width: 370px;
+    margin: 10px 0px 10px 0px;
+    height: 30px;
+}
+.right .nameinput{
+    width: 180px;
+}
+.right .nameinput:nth-child(1){
+    padding-right: 23px;
+}
+.right input, .right input::-webkit-input-placeholder {
+    font-size: 18px;
+}
+.right .free{
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    color: #404345;
+}
+.right h1{
+    font-size: 38px;
+    color: #404345;
+}
+.birthdayselect{
+    width: 85%;
+    margin-top: 5px;
+}
+.birthdayselect .birthday{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+.birthdayselect option{
+    padding: 20px;
+}
+.right .select{
+    display: flex;
+    margin-bottom: 10px;
+}
+.right select{
+    margin-right: 2px;
+}
+.right input {
+    margin-right: 8px;
+    margin-bottom: 9px;
+}
+.right .why{
+    font-size: 9px;
+}
+.right a{
+    font-size: 11px;
+}
+.right .terms{
+    font-size: 11px;
+    padding: 15px 0px;
+}
+.right button{ 
+    padding: 10px;
+    background-color: #578843;
+    border-color: #3b6e22;
+    box-shadow: inset;
+    border-radius: 6px;
+}
+.right button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.right strong{
+    font-size: 13px;
+}
+.right a, footer a{
+    color: #365899;
+    text-decoration: none;
+}
+.right .createspecial{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+footer{
+    background-color: white;
+    
+}
+.extralinks{
+    overflow: auto;
+}
+footer ul{
+    padding: 0;
+    padding-bottom: 10px;
+}
+footer li{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+footer a{
+    font-size: 12px;
+}
+.footerbox, .footerbox1{
+    float: left;
+    margin: 5px;
+}
+.footerbox{
+    width: 8%;
+    
+}
+.footerbox1{
+    width: 6%;
+}
+
+footer p{
+    font-size: 10px;
+    color: #737373;
+}
+ .modal{
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            margin: 0 auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            border: 2px solid white;
+        }
+        .modalContent{
+            background-color: #fefefe;
+            width: 65%;
+            border-bottom: 50px solid #f2f2f2;
+            margin: 5% auto;
+        }
+        .modalHeader{
+            border: 1px solid #365899;
+            border-bottom: 0;
+            background-color: #6d84b4;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding-left: 5px;
+        }
+        .modalBody table{
+            width: 100%;
+        }
+        .modalBody td a, th a{
+            color: #365899;
+            font-size: 14px;
+            padding: 5px;
+            text-decoration: none;
+        }
+        .modalBody .greyColor a {
+            font-weight: bold;
+            color: #90949c;
+            line-height: 1.4;
+            text-decoration: none;
+        }
+        .modalBody td a:hover, th a:hover {
+            text-decoration: underline;
+        }
+        .modalBody th{
+            text-align: left;
+            padding: 10px 0px;
+            border-bottom: 1px dashed #ccc;
+        }
+        .close{
+            float: right;
+            background-color: #4267b2;
+            border: 0;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            position: relative;
+            top: 15px;
+            right: 10px;
+        }
